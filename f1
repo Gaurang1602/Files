@@ -1,1 +1,11 @@
 
+#2..WAP to check word is in file or not
+with open('Gaurang.txt','r') as f:
+    s=input()
+    for i in f:
+        l=i.split()
+        if s in l:
+            print("word in file")
+            break
+    else:
+        print("word not found")

@@ -81,3 +81,13 @@ with open('Gaurang.txt','a') as f:
             f.write(s)
         else:
             break
+  #11#program to print largest word of line in a line in a file.
+f=open("abcde.txt","r+")
+a=f.read()
+b=a.split()
+print(max(b))
+#12# program to  print largest line in a file in multiple lines.
+f=open("abcdef.txt","r+")
+a=f.readlines()
+print(max(a))
+
